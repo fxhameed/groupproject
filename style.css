@@ -408,6 +408,60 @@ section {
     .blog .blog-text .vblog img {
         grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     }
+
+    .header button {
+        display: none;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .home {
+        margin-top: 120px;
+    }
+
+    .home .home-content {
+        text-align: center;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .blog h3 {
+        text-align: center;
+    }
+
+    .blog .blog-text {
+        text-align: center;
+    }
+
+    .footer .attribution {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .attribution .icon {
+        text-align: center;
+    }
+
+    .footer .attribution .footer1 {
+        text-align: center;
+    }
+
+    .footer .attribution .footer2 {
+        text-align: center;
+    }
+
+    .footer .attribution .footer3 {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1rem
+    }
 }
 
 @media (max-width: 360px) {
@@ -419,14 +473,8 @@ section {
         position: relative;
     }
 
-    .content .dop {
-        
-    }
-
-
-
     .home {
-        margin-top: 180px;
+        margin-top: 120px;
     }
 
     .home .home-content {
